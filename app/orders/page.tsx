@@ -13,7 +13,7 @@ export default function OrdersPage() {
         revalidateOnFocus: false
     })
 
-    if(isLoading) return <p>"Cargando..."</p>
+    if(isLoading) return <p>Cargando...</p>
     if(data) return (
         <>
             <h1 className="text-center mt-20 text-6xl font-black">Ordenes Listas</h1>
